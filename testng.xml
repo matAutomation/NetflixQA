@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite de Prueba">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter" />
+    </listeners>
+    <test name="Mi TestNG Test">
+        <classes>
+            <class name="RunTest" />
+            <!-- Agrega más clases de prueba aquí si es necesario -->
+        </classes>
+    </test>
+</suite>
